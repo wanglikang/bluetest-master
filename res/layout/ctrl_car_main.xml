@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="#0000E3">
+
+        <Button
+            android:id="@+id/bt_go_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button1"
+            android:layout_alignBottom="@+id/button1"
+            android:layout_toLeftOf="@+id/button1"
+            android:text="向左" />
+
+        <Button
+            android:id="@+id/bt_go_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button1"
+            android:layout_alignBottom="@+id/button1"
+            android:layout_toRightOf="@+id/button1"
+            android:text="向右" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_go_forward"
+            android:layout_centerHorizontal="true"
+            android:text="xxxxxx" />
+
+        <Button
+            android:id="@+id/bt_go_forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="向前" />
+
+        <Button
+            android:id="@+id/bt_go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/bt_go_forward"
+            android:layout_below="@+id/button1"
+            android:text="向后" />
+
+    </RelativeLayout>
+    
+   <TextView
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:textColor="#220033"
+       android:background="#EE22BB"
+       android:text="华丽丽的分割线"
+
+		android:textStyle="italic"
+		android:gravity="center_horizontal"
+       
+       />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+         android:background="#0066CC"
+        >
+
+        <Button
+            android:id="@+id/button5"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="xxxx" />
+
+        <Button
+            android:id="@+id/bt_look_up"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button5"
+            android:layout_centerHorizontal="true"
+            android:text="抬头" />
+
+        <Button
+            android:id="@+id/bt_look_right"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/button5"
+            android:layout_toRightOf="@+id/button5"
+            android:text="右转" />
+
+        <Button
+            android:id="@+id/bt_look_left"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/button5"
+            android:layout_toLeftOf="@+id/button5"
+            android:text="左转" />
+
+        <Button
+            android:id="@+id/bt_look_down"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/bt_look_up"
+            android:layout_below="@+id/button5"
+            android:text="低头" />
+
+    </RelativeLayout>
+
+</LinearLayout>

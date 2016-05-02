@@ -1,0 +1,381 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    
+    android:background="#50ca65">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <SeekBar
+                android:id="@+id/seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D73D3A" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1号舵机" />
+
+                <EditText
+                    android:id="@+id/et_postion_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="位置" >
+
+                    <requestFocus />
+                </EditText>
+
+                <EditText
+                    android:id="@+id/et_speed_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="速度" />
+
+                <Button
+                    android:id="@+id/bt_debug_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:text="调试" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2号舵机" />
+
+                <EditText
+                    android:id="@+id/et_postion_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="位置" />
+
+                <EditText
+                    android:id="@+id/et_speed_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="速度" />
+
+                <Button
+                    android:id="@+id/bt_debug_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="调试" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3号舵机" />
+
+                <EditText
+                    android:id="@+id/et_postion_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="位置" />
+
+                <EditText
+                    android:id="@+id/et_speed_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="速度" />
+
+                <Button
+                    android:id="@+id/bt_debug_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="调试" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4号舵机" />
+
+                <EditText
+                    android:id="@+id/et_postion_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="位置" />
+
+                <EditText
+                    android:id="@+id/et_speed_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="速度" />
+
+                <Button
+                    android:id="@+id/bt_debug_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="调试" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5号舵机" />
+
+                <EditText
+                    android:id="@+id/et_postion_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="位置" />
+
+                <EditText
+                    android:id="@+id/et_speed_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="速度" />
+
+                <Button
+                    android:id="@+id/bt_debug_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="调试" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6号舵机" />
+
+                <EditText
+                    android:id="@+id/et_postion_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="位置" />
+
+                <EditText
+                    android:id="@+id/et_speed_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="速度" />
+
+                <Button
+                    android:id="@+id/bt_debug_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="调试" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7号舵机" />
+
+                <EditText
+                    android:id="@+id/et_postion_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="位置" />
+
+                <EditText
+                    android:id="@+id/et_speed_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="速度" />
+
+                <Button
+                    android:id="@+id/bt_debug_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="调试" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8号舵机" />
+
+                <EditText
+                    android:id="@+id/et_postion_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="位置" />
+
+                <EditText
+                    android:id="@+id/et_speed_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="速度" />
+
+                <Button
+                    android:id="@+id/bt_debug_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="调试" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9号舵机" />
+
+                <EditText
+                    android:id="@+id/et_postion_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="位置" />
+
+                <EditText
+                    android:id="@+id/et_speed_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="速度" />
+
+                <Button
+                    android:id="@+id/bt_debug_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="调试" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10号舵机" />
+
+                <EditText
+                    android:id="@+id/et_postion_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="位置" />
+
+                <EditText
+                    android:id="@+id/et_speed_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="速度" />
+
+                <Button
+                    android:id="@+id/bt_debug_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="调试" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" >
+
+            <Button
+                android:id="@+id/bt_savedata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="保存数据" />
+
+            <Button
+                android:id="@+id/bt_accurate_debug"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/bt_savedata"
+                android:text="舵机精确调试" />
+
+            <Button
+                android:id="@+id/bt_ctrl_car"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/bt_accurate_debug"
+                android:text="小车行走" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+   <LinearLayout 
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       >
+
+    <Button
+        android:id="@+id/bt_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="定位此动作"
+        />
+
+    <Button
+        android:id="@+id/bt_Toread"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取舵机信息" />
+
+    <Button
+        android:id="@+id/bt_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="连接蓝牙" />
+
+   </LinearLayout>
+
+
+</LinearLayout>

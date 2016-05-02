@@ -1,0 +1,170 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="一号舵机：" />
+            <TextView
+                android:id="@+id/tv_readinfo_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="读到的数据" />
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="二号舵机：" />
+           <TextView
+                android:id="@+id/tv_readinfo_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="读到的数据" />
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+           <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="三号舵机：" />
+            <TextView
+                android:id="@+id/tv_readinfo_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="读到的数据" />
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+          <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="四号舵机：" />
+               />
+            <TextView
+                android:id="@+id/tv_readinfo_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="读到的数据" />
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+           <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="五号舵机：" />
+            <TextView
+                android:id="@+id/tv_readinfo_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="读到的数据" />
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+          <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="六号舵机：" />
+            <TextView
+                android:id="@+id/tv_readinfo_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="读到的数据" />
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+         <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="七号舵机：" />
+            <TextView
+                android:id="@+id/tv_readinfo_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="读到的数据" />
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+          <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="八号舵机：" />
+            <TextView
+                android:id="@+id/tv_readinfo_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="读到的数据" />
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+          <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="九号舵机：" />
+            <TextView
+                android:id="@+id/tv_readinfo_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="读到的数据" />
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+         <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="十号舵机：" />
+            <TextView
+                android:id="@+id/tv_readinfo_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="读到的数据" />
+        </LinearLayout>
+
+         <Button
+             android:id="@+id/bt_saveandback"
+             style="?android:attr/buttonStyleSmall"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="保存返回" />
+         
+         
+         <Button
+             android:id="@+id/bt_goback"
+             style="?android:attr/buttonStyleSmall"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="直接退出" />
+        
+    </LinearLayout>
+
+</LinearLayout>
